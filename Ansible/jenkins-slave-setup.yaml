@@ -6,8 +6,7 @@
     apt:
      update_cache: yes
      fource_apt_get: yes
-     cache_valid_time: 3600
-
+     
   - name: install java-11
     apt: 
       name: openjdk-11-jre
