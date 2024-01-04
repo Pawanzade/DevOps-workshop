@@ -5,7 +5,7 @@
   - name: update ubuntu repo and cache
     apt:
      update_cache: yes
-     fource_apt_get: yes
+     force_apt_get: yes
      
   - name: install java-11
     apt: 
